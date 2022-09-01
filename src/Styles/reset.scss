@@ -1,0 +1,78 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+:root{
+  --primarycolor: #d88ab9
+
+}
+a{
+  color: var(--primarycolor);
+}
+ul{
+
+  list-style: none;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+    font-family: sans-serif;
+
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+  border: 15px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+::-webkit-scrollbar-track {
+  background: #766f6f;
+  border: 24px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+::-webkit-scrollbar-track:active {
+  background: #2d2a2a;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+// GLASS MORPHISM 
+.morphism{
+  background: rgba( 255, 255, 255, 0.6 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 16.5px );
+  -webkit-backdrop-filter: blur( 16.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: 1rem;
+  margin-right: 10px;
+} 
+
+// MEDIA QUERIES 
+
+@media screen and (max-width : 520px)   {
+  html {
+    font-size: 10px;
+  }
+}

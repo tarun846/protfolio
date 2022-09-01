@@ -1,0 +1,13 @@
+ [
+    {
+        "content" : "Web Development",
+        "para" : "Full cycle Web Development services with agile methodology to build high performing sites & apps at low price",
+        "links" : [ "Web Design", "Custom Web App Development" ,"E-Commerce" , "Solutions" ,"Product" ,"Re-Engineering" ,"CMS Development"
+        ]
+    } ,
+    {
+        "content" : "Mobile App Development",
+        "para"    : "Enterprise mobility solutions for a wide range of industries specializing in both native and hybrid apps",
+        "links"   : ["Android App Development " , "iPhone App Development" , "Cross platform App Development" , "Custom Mobile App" , "Wearable App Development"]
+    }
+]

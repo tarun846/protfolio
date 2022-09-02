@@ -7,11 +7,12 @@ import data from './data/data.json'
 import textdata from './data/textdata.json'
 
 import './Styles/App.css'
+import { useContextValue } from './Context/Context';
 function App() {
-
+  const {theme} =  useContextValue()
   
   return (
-    <>
+    <div style={{...theme}} >
     <div className="box_container"> 
     
 
@@ -63,7 +64,7 @@ function App() {
    </div>
    
  <Footer/>
-    </>
+    </div>
   );
 }
 
